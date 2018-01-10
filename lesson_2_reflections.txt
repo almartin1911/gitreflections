@@ -1,9 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
-	When you initializa a repo a .git folder is created inside the working
-	directory. It's mandatory to start using git system.
+	
+	A folder named .git is created inside the working
+	directory. This is mandatory to start tracking the files.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	Staging area has the files ready to be commited. Even though
+	these new or modified files are stored in the working directory, they aren't 
+	saved on the repository yet.
+	This is essential for testing and checking wheter it's a good or bad 
+	decision to commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
