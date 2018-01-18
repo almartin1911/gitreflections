@@ -1,3 +1,6 @@
+Final concept map:
+https://www.udacity.com/wiki/ud775/concept-map?nocache
+
 When would you want to create a remote repository rather than keeping all your work
 local?
 
@@ -32,9 +35,25 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I'd share my code in plain files (via usb, dropbox, etc). This would be
+    definitely harder to maintain.
+    Another option could be working as a group but in the same computer and
+    in the same files one at once. Again, this would be harder.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    In order to collaborate with people I'd use branches. This would bring
+    flexibility and stability to the master working branch.
+    I'd make changes directly to the master if the changes were small enough.
+
+    Commands:
+
+    git remote
+    git remote add origin url
+    git remote -v
+    git remote set-url origin url/ssh
+    git push origin master  Push master to remote
+    git pull origin master  Get  master from remote
+    git pull origin master  = Git fetch origin + git merge master origin/master
+    git fetch origin  Get changes from remote local origin/master branch
